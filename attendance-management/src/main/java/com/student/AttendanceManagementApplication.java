@@ -1,14 +1,14 @@
-package com.example.sms;
+package com.student;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentAttendanceApplication implements CommandLineRunner {
+public class AttendanceManagementApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentAttendanceApplication.class, args);
+		SpringApplication.run(AttendanceManagementApplication.class, args);
 	}
 
 	@Override
